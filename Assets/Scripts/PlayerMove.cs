@@ -22,7 +22,6 @@ public class PlayerMove : MonoBehaviour
         {
 			Vector3 cameraForward = Camera.main.transform.forward;
 			this.gameObject.transform.Translate(cameraForward * Time.deltaTime * speed);
-			// transform.position = transform.position + Camera.main.transform.forward * speed * Time.deltaTime;
         }
     }
 

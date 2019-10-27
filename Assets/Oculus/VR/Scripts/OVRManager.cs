@@ -1463,7 +1463,7 @@ public class OVRManager : MonoBehaviour
 
 		if (headPoseRelativeOffsetTranslation != _headPoseRelativeOffsetTranslation)
 		{
-			headPoseRelativeOffsetTranslation = _headPoseRelativeOffsetTranslation;
+			headPoseRelativeOffsetTranslation = -headPoseRelativeOffsetTranslation;
 		}
 
 		if (_wasHmdPresent && !isHmdPresent)

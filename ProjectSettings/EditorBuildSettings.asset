@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Obj.unity
+    guid: 71739ba06b58f4cd6908fbe5b8468338
+  - enabled: 0
     path: Assets/Scenes/SketchUp.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects: {}
